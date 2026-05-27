@@ -4,7 +4,7 @@ A C# utility library for game development, featuring fakers, collections, castin
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone the repository and add the project reference to your solution:
 
@@ -14,7 +14,7 @@ Clone the repository and add the project reference to your solution:
 
 ---
 
-## 🎲 LootPool\<T\>
+## LootPool\<T\>
 
 Weighted random picker with pity system.
 
@@ -37,7 +37,7 @@ List<string> unique = loot.RollWithoutReplacement(2);
 
 ---
 
-## 🔁 Casting
+## Casting
 
 Safe casting and conversion extension methods.
 
@@ -57,7 +57,7 @@ int hp = "150".ParseOrDefault<int>(0);
 
 ---
 
-## 👤 Faker
+## Faker
 
 Generate realistic placeholder data.
 
@@ -87,7 +87,7 @@ Faker.Person.Phone();         // "+7 543 210 9876"
 
 ---
 
-## ⏱️ Cooldown
+## Cooldown
 
 ```csharp
 var cd = new Cooldown(1.5f);
@@ -118,7 +118,7 @@ void Update()
 
 ---
 
-## ⏲️ GameTimer
+## GameTimer
 
 ```csharp
 var timer = new GameTimer(10f, loop: false);
@@ -144,11 +144,11 @@ void Update()
 
 ---
 
-## 🗺️ ToroidalMap\<T\> *(coming soon)*
+## ToroidalMap\<T\> *(coming soon)*
 
 ---
 
-## 📁 Namespace Overview
+## Namespace Overview
 
 | Namespace | Classes |
 |---|---|
@@ -160,6 +160,6 @@ void Update()
 
 ---
 
-## 📄 License
+## License
 
 MIT — free to use in personal and commercial projects.
